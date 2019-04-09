@@ -7,6 +7,7 @@ public class Primenumbers
     public static void main(String args[])
     {
         int start, end, i, j, count=0;
+	    int count1=1;
         
         Scanner scan = new Scanner(System.in);
 		
@@ -32,8 +33,11 @@ public class Primenumbers
             if(count == 0)
             {
                 System.out.print(i + " ");
+		    count1++;
             }
         }
+	    System.out.print();
+	    System.out.print("The total number="+count1);
         scan.close();
     }
 }
